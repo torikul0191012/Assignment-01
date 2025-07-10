@@ -1,5 +1,7 @@
 /* Starting Css*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 *{
     margin: 0;
@@ -10,7 +12,6 @@ body{
 }
 
 /* header css */
-
 .Matha{
     background-image: url(Assets/Hero-bg.png);
 }
@@ -22,13 +23,14 @@ body{
 }
 .navi h2{
     color: #4E47FF;
-    font-size: 2rem;
-    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-
 }
+
+/* banner style */
 .banner  {
     display: block;
     justify-content: center;
@@ -64,8 +66,8 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-/* Action Section Style*/
 
+/* Action Section Style*/
 .action{
     display: flex;
     justify-content: space-between;
@@ -93,5 +95,40 @@ body{
     padding-top: 15px;
 }
 .divgap p{
-    color:#252432
+    color:#858585
+}
+
+/* Productive Users Section */
+.productive{
+    background-color: #e5e7ff;
+    margin: 60px 200px;
+    border-radius: 20px;
+}
+.ph{
+    text-align: center;
+    padding: 40px;
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.ptail{
+    text-align: center;
+    font-size: 5rem;
+    color: #4E47FF;
+}
+.ptail p{
+    font-size: large;
+    color: #999999;
+}
+.probody{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    
 }
