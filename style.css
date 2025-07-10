@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #f5f8ff;
+}
 
 /* header css */
 
@@ -60,4 +63,35 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+/* Action Section Style*/
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    background-color: #f5f8ff;
+    
+}
+.action img{
+    width: 400px;
+    height: 300px;
+    margin:  100px 0;
+    border-radius: 30px;
+}
+.divac{
+    text-align: left;
+    padding: 50px;
+    font-size: larger;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+ .divgap{
+    padding-top: 15px;
+}
+.divgap p{
+    color:#252432
 }
