@@ -175,3 +175,56 @@ form{
 form button{
     width: 330px;
 }
+/*footer*/
+footer{
+    background-color: white;
+    margin: 20px;
+    padding: 200px;
+}
+
+.dhp{
+    text-align: center;
+    margin: 20px;
+}
+.dhp h1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    font-size: 5rem;
+    color: #4E47FF;
+}
+.dhp p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #999999;
+}
+.dlink{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+}
+.dlink a{
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+/* hover all button*/
+.btn:hover {
+    background-color: rgb(255, 200, 0);
+    color: red;
+    font-weight: 600;
+}
+.dlink a:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 200, 0);
+    color: red;
+    font-weight: 600;
+    padding: 10px;
+}
