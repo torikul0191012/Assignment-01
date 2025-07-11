@@ -228,3 +228,62 @@ footer{
     font-weight: 600;
     padding: 10px;
 }
+/* Review Section*/
+.Review{
+        margin: 100px 200px;
+        background-color:  #f5f8ff;
+}
+.rh{    text-align: center;
+        justify-content: center;
+        padding: 20px;
+        font-size: 2rem;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+}
+
+.star{
+    display: flex;
+    margin-bottom: 20px;
+    
+     
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap:50px ;
+    background-color: #f5f8ff;
+    padding: 20px;
+}
+.careone{
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.dcinfo , .careone h2{font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    margin-bottom: 10px;}
+    
+.client{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    margin: 30px;
+    gap: 20px;
+}
+.meye img{
+    border: 1px wheat solid;
+    border-radius: 50px;
+    
+}
+.careone p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #999999;
+}
