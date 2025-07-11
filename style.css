@@ -287,3 +287,6 @@ footer{
     font-style: normal;
     color: #999999;
 }
+.navi h2:hover , .dhp h1:hover{
+    font-style: italic;
+}
